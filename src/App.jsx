@@ -1,7 +1,9 @@
+import Home from "./components/Home";
+
 function App() {
   return (
     <div>
-      <h2 className="bg-red-500">hello</h2>
+      <Home />
     </div>
   );
 }
