@@ -9,7 +9,7 @@ function Navbar() {
     setmenu(!showMenu);
   };
   return (
-    <header className="bg-white fixed top-0 left-0 right-0">
+    <header className="bg-white fixed top-0 left-0 right-0 z-50">
       <nav className="flex justify-between max-w-9/10 mx-auto h-[12vh] md:h-[14vh] items-center px-10">
         <a href="#" className="text-3xl font-bold">
           O<span className="text-orange-500">reoo</span>N
@@ -88,7 +88,7 @@ function Navbar() {
         {/* mobile menu */}
 
         <ul
-          className={`flex-col items-center gap-y-15 lg:hidden absolute bg-white/40 p-10 top-0  w-full text-center h-screen justify-center text-3xl backdrop-blur-sm -left-1/2 transform -translate-x-1/2 transition-all duration-1000 top-25 ${
+          className={`flex-col items-center gap-y-15 lg:hidden absolute bg-white/40 p-10  w-full text-center h-screen justify-center text-3xl backdrop-blur-sm -left-1/2 transform -translate-x-1/2 transition-all duration-1000 top-25 ${
             showMenu ? "left-1/2" : ""
           }`}
         >
