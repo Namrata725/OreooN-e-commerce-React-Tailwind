@@ -5,6 +5,7 @@ import Hero from "./Hero";
 import Category from "./Category";
 import Values from "./Values";
 import Products from "./Products";
+import Discount from "./Discount";
 function Home() {
   return (
     <div>
@@ -13,6 +14,7 @@ function Home() {
       <Category />
       <Values />
       <Products />
+      <Discount />
     </div>
   );
 }
