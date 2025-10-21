@@ -8,6 +8,7 @@ import Products from "./Products";
 import Discount from "./Discount";
 import Process from "./Process";
 import Testimonials from "./Testimonials";
+import Footer from "./Footer";
 function Home() {
   return (
     <div>
@@ -19,6 +20,7 @@ function Home() {
       <Discount />
       <Process />
       <Testimonials />
+      <Footer />
     </div>
   );
 }
